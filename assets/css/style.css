@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+
+html {
+  font-family: 'Redressed', cursive;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 1.5em;
+  background-color: black;
+  background-image: url("https://www.mtgnexus.com/img/gallery/1014-epic-experiment.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  background-color: #EC04FE;
+  border-style: outset;
+  border-radius: 12em;
+  opacity: 0.8;
+}
+h1 {
+  font-size: 2.5em;
+  padding-left: 0.3em;
+  text-align: center;
+}
+
+.mainbox {
+  padding-top: 1em;
+}
+form {
+  background-color: #FFB100;
+  border-style: outset;
+  border-radius: 22em;
+  opacity: 0.9;
+}
+h2 {
+  font-size: 1.3em;
+  text-align: center;
+  padding-right: 0.33em;
+  padding-top: 0.15em;
+}
+ul {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+li {
+  padding-bottom: 0.75em;
+}
+li.submit {
+  padding-top: 1.2em;
+}
+input {
+  border-color: #EC04FE;
+}
+button {
+  background: #EC04FE;
+  color: #F8BA2C;
+  border-color: transparent;
+  overflow: visible;
+  font: inherit;
+  border-radius: 1em;
+  padding: 0.6em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+button:hover {
+  background: #2C72F8;
+  color: #F8BA2C;
+}
+
+@media screen and (min-width: 550px) { 
+  html {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 700px) {
+  html {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+.hasjs #username.inactive, #email.inactive, #password.inactive {
+  background-color: #EC04FE;
+  border-color: black;
+  opacity: 0.9;
+  overflow: visible;
+}
+.hasjs #username.active, #email.active, #password.active{
+  background-color: #EC04FE;
+  border-color: black;
+  opacity: 0.9;
+  overflow: visible;
+}
+
